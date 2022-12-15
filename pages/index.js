@@ -33,15 +33,15 @@ export default function Home() {
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </Link>
 
-          <a
+          <Link
             href="/table"
             className={styles.card}
           >
             <h2>Examples &rarr;</h2>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
@@ -51,12 +51,12 @@ export default function Home() {
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
-          </a>
+          </Link>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
+        <Link
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
@@ -65,7 +65,7 @@ export default function Home() {
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
-        </a>
+        </Link>
       </footer>
     </div>
   )
