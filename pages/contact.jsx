@@ -26,7 +26,7 @@ export default function ContactPage() {
             <Button color="info">Back Page</Button>
         </Link>
 
-        <Link href="/index">
+        <Link href="/">
                     <Button color="info">Next Page</Button>
         </Link> 
                 
